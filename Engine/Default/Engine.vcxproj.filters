@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{68403dd5-a4ca-4eb0-aa82-add89221b944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System">
+      <UniqueIdentifier>{ec264ff7-d552-4716-bd77-b611dc8dd9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\TimerMgr">
+      <UniqueIdentifier>{2384a1f0-49bd-4752-bf06-4c2e20ee7a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility">
+      <UniqueIdentifier>{cef62b04-fab5-4a6a-8f7d-9dd61c089ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\00. GameInstance">
+      <UniqueIdentifier>{f0164b67-31dc-4a66-8121-e73cc4b17d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\01. Level">
+      <UniqueIdentifier>{f05c0440-fcdc-454d-b4fa-8a1a00ce523e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\01. Level\Manager">
+      <UniqueIdentifier>{04982cd0-ded9-41cf-b8a1-79ecf1880884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02. GameObject">
+      <UniqueIdentifier>{486f095d-0c03-42a5-97e4-7cec6c15f059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02. GameObject\Manager">
+      <UniqueIdentifier>{3058d791-fb26-4e04-b23d-425104d3755e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\02. GameObject\Manager\Layer">
+      <UniqueIdentifier>{ecf5486c-7efc-404e-a48b-c34eec62356a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03. Components">
+      <UniqueIdentifier>{34ff0d38-e156-49c5-ad9f-0d630bccffd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03. Components\Collider">
+      <UniqueIdentifier>{20e92321-4936-401e-9192-bbde4d204fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03. Components\Transform">
+      <UniqueIdentifier>{8a89f3a3-99a2-4c12-94e8-5c3d111033a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Math">
+      <UniqueIdentifier>{52931a29-3800-4b9f-a577-1c21c0be7de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\InputMgr">
+      <UniqueIdentifier>{b392a59e-3d02-4151-aa11-c7e514509964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\04. Renderer">
+      <UniqueIdentifier>{c952d479-5bf5-4bf5-b148-19ca627d4f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\Device">
+      <UniqueIdentifier>{983414e0-30e8-40f9-8b80-32b30031f768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Util">
+      <UniqueIdentifier>{d6b07d93-99f7-4b34-9242-03c8dfa6f586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\Device\ScreenBuffer">
+      <UniqueIdentifier>{fbef0a40-838f-4254-9921-e1ef5b0e585d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\03. Components\Collider\Collision_Manager">
+      <UniqueIdentifier>{0556db85-c305-49e6-abe7-882b0150d6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\05. Event">
+      <UniqueIdentifier>{ecc1162a-5d62-4dc0-91af-b7afde546706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Utility\05. Event\Event_Manager">
+      <UniqueIdentifier>{34ed36f4-2a93-4884-aae2-cbc0c20e80b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\public\GameInstance.h">
+      <Filter>01.Utility\00. GameInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Macro.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TimerMgr.h">
+      <Filter>00. System\TimerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LevelManager.h">
+      <Filter>01.Utility\01. Level\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level.h">
+      <Filter>01.Utility\01. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Object_Manager.h">
+      <Filter>01.Utility\02. GameObject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GameObject.h">
+      <Filter>01.Utility\02. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Layer.h">
+      <Filter>01.Utility\02. GameObject\Manager\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Transform.h">
+      <Filter>01.Utility\03. Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Component.h">
+      <Filter>01.Utility\03. Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Vector2.h">
+      <Filter>98. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Input_Manager.h">
+      <Filter>00. System\InputMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Renderer.h">
+      <Filter>01.Utility\04. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Device.h">
+      <Filter>00. System\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Color.h">
+      <Filter>97. Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ScreenBuffer.h">
+      <Filter>00. System\Device\ScreenBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Typedef.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CollisionMgr.h">
+      <Filter>01.Utility\03. Components\Collider\Collision_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Collider.h">
+      <Filter>01.Utility\03. Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Event_Manager.h">
+      <Filter>01.Utility\05. Event\Event_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\private\GameInstance.cpp">
+      <Filter>01.Utility\00. GameInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TimerMgr.cpp">
+      <Filter>00. System\TimerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LevelManager.cpp">
+      <Filter>01.Utility\01. Level\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level.cpp">
+      <Filter>01.Utility\01. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Object_Manager.cpp">
+      <Filter>01.Utility\02. GameObject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GameObject.cpp">
+      <Filter>01.Utility\02. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Layer.cpp">
+      <Filter>01.Utility\02. GameObject\Manager\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Transform.cpp">
+      <Filter>01.Utility\03. Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Component.cpp">
+      <Filter>01.Utility\03. Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Vector2.cpp">
+      <Filter>98. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Input_Manager.cpp">
+      <Filter>00. System\InputMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Renderer.cpp">
+      <Filter>01.Utility\04. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Device.cpp">
+      <Filter>00. System\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ScreenBuffer.cpp">
+      <Filter>00. System\Device\ScreenBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CollisionMgr.cpp">
+      <Filter>01.Utility\03. Components\Collider\Collision_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Collider.cpp">
+      <Filter>01.Utility\03. Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Event_Manager.cpp">
+      <Filter>01.Utility\05. Event\Event_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

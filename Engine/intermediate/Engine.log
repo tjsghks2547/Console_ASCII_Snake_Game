@@ -1,0 +1,51 @@
+﻿  Collider.cpp
+  CollisionMgr.cpp
+  Component.cpp
+  Device.cpp
+  Event_Manager.cpp
+  GameInstance.cpp
+  GameObject.cpp
+  Input_Manager.cpp
+  Layer.cpp
+  Level.cpp
+  LevelManager.cpp
+  Object_Manager.cpp
+  Renderer.cpp
+  ScreenBuffer.cpp
+  TimerMgr.cpp
+  Transform.cpp
+  Vector2.cpp
+C:\Users\tjsgh\Desktop\DosGame\Engine\private\Transform.cpp(124,23): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tjsgh\Desktop\DosGame\Engine\private\Transform.cpp(125,23): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     ..\Bin\Engine.lib 라이브러리 및 ..\Bin\Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 924 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Engine.vcxproj -> C:\Users\tjsgh\Desktop\DosGame\Engine\Bin\Engine.dll
+  ..\..\Engine\Public\Collider.h
+  ..\..\Engine\Public\CollisionMgr.h
+  ..\..\Engine\Public\Color.h
+  ..\..\Engine\Public\Component.h
+  ..\..\Engine\Public\Device.h
+  ..\..\Engine\Public\Engine_Defines.h
+  ..\..\Engine\Public\Engine_Macro.h
+  ..\..\Engine\Public\Engine_Typedef.h
+  ..\..\Engine\Public\Event_Manager.h
+  ..\..\Engine\Public\GameInstance.h
+  ..\..\Engine\Public\GameObject.h
+  ..\..\Engine\Public\Input_Manager.h
+  ..\..\Engine\Public\Layer.h
+  ..\..\Engine\Public\Level.h
+  ..\..\Engine\Public\LevelManager.h
+  ..\..\Engine\Public\Object_Manager.h
+  ..\..\Engine\Public\Renderer.h
+  ..\..\Engine\Public\ScreenBuffer.h
+  ..\..\Engine\Public\TimerMgr.h
+  ..\..\Engine\Public\Transform.h
+  ..\..\Engine\Public\Vector2.h
+  21개 파일이 복사되었습니다.
+  ..\..\Engine\Bin\Engine.dll
+  1개 파일이 복사되었습니다.
+  ..\..\Engine\Bin\Engine.lib
+  1개 파일이 복사되었습니다.

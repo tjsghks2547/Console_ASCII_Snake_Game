@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{09ada745-5556-43aa-92a1-287417a59836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Player">
+      <UniqueIdentifier>{105f6e4e-8a24-4a00-88a8-113d64a300a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{6fb7e859-4826-4a5d-a54b-b6ce914487fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{52d1d06c-9bd9-4d52-aeea-b3cac01d8252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level">
+      <UniqueIdentifier>{7ec2212b-359e-41b5-9005-e1b3e17be260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\Logo">
+      <UniqueIdentifier>{8ee2978d-b45a-4a3b-8ef3-c95900438257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Player\Tail">
+      <UniqueIdentifier>{87328f7d-f7bf-4564-8f99-c92d88a93ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Static_Obejct">
+      <UniqueIdentifier>{19e8625b-2149-499e-842d-98d830d4e88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Static_Obejct\Wall">
+      <UniqueIdentifier>{0fa1ab0b-755e-4ee9-90f0-5e8741a1078f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI">
+      <UniqueIdentifier>{52734a18-3ebe-4f0b-a5f7-778c88cbc923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_Logo">
+      <UniqueIdentifier>{52dadb26-cfa8-4c32-a001-3004a25f39f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_Menu">
+      <UniqueIdentifier>{1e39d297-e234-427e-adc4-657c7901cfa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_Menu\Start">
+      <UniqueIdentifier>{1431c56c-17a9-4f82-b734-f697db2196bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_Menu\End">
+      <UniqueIdentifier>{d5d0d523-9d27-429d-a62e-6c1fc5fdb590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\Stage_1">
+      <UniqueIdentifier>{d135cdf1-182a-4e75-bba9-291daf59004b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Static_Obejct\Ground">
+      <UniqueIdentifier>{03ef9c83-abf4-456e-9922-d57716ca2e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_Over">
+      <UniqueIdentifier>{2b8fdc23-7431-469e-80dd-59e07ddd0ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Static_Obejct\Item">
+      <UniqueIdentifier>{f5b420ac-0f91-45f0-8af8-830cd2927b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Static_Obejct\Item\TailItem">
+      <UniqueIdentifier>{e6d58cc2-32e0-497a-a642-628e8c31760e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Monster">
+      <UniqueIdentifier>{3f292fc0-04d3-415b-a215-b795b6e2bc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Monster\Monster_Tower">
+      <UniqueIdentifier>{26bedd34-5bf3-4ace-a4f7-cd5bf9632d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Monster\Monster_Tower\Tower_projectile">
+      <UniqueIdentifier>{a531df2d-2cc1-4bb0-9790-5e9277fe6671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_ExpBar">
+      <UniqueIdentifier>{b9ff32bb-6670-442e-95b8-887a27ddf83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Speed_Up">
+      <UniqueIdentifier>{d9403649-4e68-4c15-80c2-9593f39dbd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Static_Obejct\Item\Attack_item">
+      <UniqueIdentifier>{a1bd08d3-152e-4511-a2f6-4451e82f02fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Monster\Boss">
+      <UniqueIdentifier>{244a0194-e15a-4296-90c3-17830891272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\Game_Win">
+      <UniqueIdentifier>{d5f14ff5-a99a-4b26-9bd6-d2fb9c6bcacd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01. Level\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerTail.cpp">
+      <Filter>02. GameObject\Player\Tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Wall.cpp">
+      <Filter>02. GameObject\Static_Obejct\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\GameLogo.cpp">
+      <Filter>02. GameObject\UI\Game_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Start_UI.cpp">
+      <Filter>02. GameObject\UI\Game_Menu\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\End_UI.cpp">
+      <Filter>02. GameObject\UI\Game_Menu\End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Stage_1.cpp">
+      <Filter>01. Level\Stage_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ground.cpp">
+      <Filter>02. GameObject\Static_Obejct\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Game_Over.cpp">
+      <Filter>02. GameObject\UI\Game_Over</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TailPlus_Item.cpp">
+      <Filter>02. GameObject\Static_Obejct\Item\TailItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_Tower.cpp">
+      <Filter>02. GameObject\Monster\Monster_Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Tower_projectile.cpp">
+      <Filter>02. GameObject\Monster\Monster_Tower\Tower_projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Game_ExpBar.cpp">
+      <Filter>02. GameObject\UI\Game_ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Speed_Up.cpp">
+      <Filter>02. GameObject\UI\Speed_Up</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_item.cpp">
+      <Filter>02. GameObject\Static_Obejct\Item\Attack_item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Boss_Monster.cpp">
+      <Filter>02. GameObject\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Victory_UI.cpp">
+      <Filter>02. GameObject\UI\Game_Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01. Level\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerTail.h">
+      <Filter>02. GameObject\Player\Tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Wall.h">
+      <Filter>02. GameObject\Static_Obejct\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\GameLogo.h">
+      <Filter>02. GameObject\UI\Game_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Start_UI.h">
+      <Filter>02. GameObject\UI\Game_Menu\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\End_UI.h">
+      <Filter>02. GameObject\UI\Game_Menu\End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Stage_1.h">
+      <Filter>01. Level\Stage_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ground.h">
+      <Filter>02. GameObject\Static_Obejct\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Game_Over.h">
+      <Filter>02. GameObject\UI\Game_Over</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TailPlus_Item.h">
+      <Filter>02. GameObject\Static_Obejct\Item\TailItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_Tower.h">
+      <Filter>02. GameObject\Monster\Monster_Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Tower_projectile.h">
+      <Filter>02. GameObject\Monster\Monster_Tower\Tower_projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Game_ExpBar.h">
+      <Filter>02. GameObject\UI\Game_ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Speed_Up.h">
+      <Filter>02. GameObject\UI\Speed_Up</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_item.h">
+      <Filter>02. GameObject\Static_Obejct\Item\Attack_item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Boss_Monster.h">
+      <Filter>02. GameObject\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Victory_UI.h">
+      <Filter>02. GameObject\UI\Game_Win</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
