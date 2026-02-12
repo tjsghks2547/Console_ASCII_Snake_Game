@@ -25,5 +25,5 @@
 
   이후 Double Buffering을 적용하여 화면 깜빡임을 최소화하고, 안정적인 콘솔 렌더링이 이루어지도록 구현했습니다.
 
-![Image](https://github.com/user-attachments/assets/e14cb89e-7421-4130-ab7b-d46a5adc2b7b)
+   ![Image](https://github.com/user-attachments/assets/e14cb89e-7421-4130-ab7b-d46a5adc2b7b)
     
